@@ -94,6 +94,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+header{
+  position:absolute;
+  top:0;
+  left:0;
+  min-width:100vmin;
+  min-height:60px;
+  display:grid;
+  align-items:center;
+}
 
 a {
   color: inherit;

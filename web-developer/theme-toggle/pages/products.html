@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Faith Heating and Cooling Chicago : Universal HVAC Service Chicago</title>
+    <link rel="stylesheet" href="../css/global.css"/>
+    <script src="../js/global.js"></script>
+</head>
+<body class="content">
+
+<header>
+    <h1>Faith HVAC</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li>Products</li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>HVAC Products</h2>
+    <p>This is the products message in para form.</p>
+</main>
+<footer>&copy<abbr title="Faith Heating and Cooling Chicago">Faith Hvac</abbr>
+</footer>
+<script>
+  // Don't register the service worker
+  // until the page has fully loaded
+  window.addEventListener('load', () => {
+    // Is service worker available?
+    if('serviceWorker' in navigator){
+      navigator.serviceWorker.register('../sw.js').then(() => {
+        console.log('Service worker registered');
+      }).catch((error) => {
+        console.warn('Error registering service worker:');
+        console.warn(error);
+      });
+    }
+  });
+</script>
+</body>
+</html>

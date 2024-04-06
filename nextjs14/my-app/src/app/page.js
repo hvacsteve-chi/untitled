@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
+        <header>
+          <h1>Faith <span>HVAC</span></h1>
+          <nav><span>-</span><span>-</span><span>-</span></nav>
+        </header>
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
